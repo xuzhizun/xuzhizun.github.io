@@ -1,49 +1,71 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+#title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+Welcome
+=====
+I am a lecturer in Guangdong Ocean University, China. Now I am working as a research associate in Newcastle University, developing the software for underwater buoyancy-driven gliders. 
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I mainly work on the underwater VO/SLAM based on the combination of multiple sensors, taking advantages of the conventional acoustic means and cutting-edge computer vision technologies.  I recieved my Ph.D in Marine Technology in Newcastle Univeristy, 2021, working on the underwater autonomous vehicle navigation, researching the multiple sensors fusion method to enhance the accuracy of the conventional fashion of the underwater positioning.  
 
-A data-driven personal website
+Project Hightligts
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+Real-Time Underwater Autonomous Buoyancy-driven Glider Simulator
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+We proposed the UGSim, a simulator for buoyancy-driven gliders, with a LQR control strategy, and a recursive guidance
+system. Building on the top of the DAVE and the UUVsim, it is designed to address unique challenges that come from the complex
+hydrodynamic and hydrostatic impacts on buoyancy-driven gliders, which conventional robotics simulators can’t deal with.
+[![Watch the Video](https://img.youtube.com/vi/wowY2xWD2XI/0.jpg)](https://www.youtube.com/watch?v=wowY2xWD2XI)
 
-Create content & metadata
+
+Modularised ROV Developed Based on ROS
+------
+In order to collect data and evaluate proposed navigation and localisation algorithms, the multi-function ROV
+was developed. It is of open-frame type, and has a modular design, with extra functionality loaded on demand.
+[![Watch the video]()]()
+
+
+Integrated VO for Underwater Vehicles 
+------
+The proposed algorithms fusing data from a camera, a sonar, and a gyroscope, localise underwater vehicles in
+sparse environments, whilst being at low cost. **A video of the comparisons of our proposed methods(IVO-monocular and IVO Stereo), ORB SLAM2, VINS and OKVIS is given below,** 
+[![Watch the Video](https://img.youtube.com/vi/C1qkOEcEFiY/0.jpg)](https://www.youtube.com/watch?v=C1qkOEcEFiY)
+
+
+ArUco Marks Implimented in Underwater Positioning
+------
+The multiple ArUco markers are set out beforehand. With the knowledge of the computer vision, such markers may
+be detected by a camera. Simultaneously, the pose of the camera related to markers is calculated without suffering 
+from the accumulative error.
+[![Watch the video](https://img.youtube.com/vi/IoqIBqz2smw/0.jpg)](https://www.youtube.com/watch?v=IoqIBqz2smw)
+
+
+LiDAR Camera Implimented in Underwater Positioning  
+------
+The LiDAR camera, benefiting from the laser scanning techniques, could generate the associated depth maps.
+With the altitudes provided by the IMU, the positions of underwater vehicles can be estimated.
+[![Watch the video]()]()
+
+
+Publication
+======
+- Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2020. An integrated visual odometry system for underwater vehicles. IEEE Journal of Oceanic Engineering, 46(3), pp.848-863.
+
+- Yang, H., Xu, Z. and Jia, B., 2022. An underwater positioning system for uuvs based on lidar camera and inertial measurement unit. Sensors, 22(14), p.5418.
+
+- Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2021. An underwater visual navigation method based on multiple ArUco markers. Journal of Marine Science and Engineering, 9(12), p.1432.
+
+- Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2022. An integrated visual odometry system with stereo camera for unmanned underwater vehicles. IEEE Access, 10, pp.71329-71343.
+
+- Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2020. A comparison of functional control strategies for underwater vehicles: Theories, simulations and experiments. Ocean Engineering, 215, p.107822.
+
+
+
+
 ------
 For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
