@@ -35,6 +35,7 @@ Integrated VO for Underwater Vehicles
 ------
 The proposed algorithms fusing data from a camera, a sonar, and a gyroscope, localise underwater vehicles in
 sparse environments, whilst being at low cost. Our proposed methods(IVO-monocular and IVO Stereo) outperform the ORB-SLAM2, VINS and OKVIS in underwater sparse environments.
+
 [![Watch the Video](https://img.youtube.com/vi/C1qkOEcEFiY/0.jpg)](https://www.youtube.com/watch?v=C1qkOEcEFiY)
 
 
@@ -55,7 +56,7 @@ With the altitudes provided by the IMU, the positions of underwater vehicles can
 
 Publication
 ======
-- Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2020. An integrated visual odometry system for underwater vehicles. IEEE Journal of Oceanic Engineering, 46(3), pp.848-863.
+- Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2021. An integrated visual odometry system for underwater vehicles. IEEE Journal of Oceanic Engineering, 46(3), pp.848-863.
 
 - Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2022. An integrated visual odometry system with stereo camera for unmanned underwater vehicles. IEEE Access, 10, pp.71329-71343.
 
@@ -70,7 +71,7 @@ Publication
 - Merveille, F.F.R., Jia, B., Xu, Z. and Fred, B., 2024. Advancements in Sensor Fusion for Underwater SLAM: A Review on Enhanced Navigation and Environmental Perception. Sensors (Basel, Switzerland), 24(23), p.7490.
 
 - Merveille, F.F.R., Jia, B., Xu, Z. and Fred, B., 2024. Enhancing Underwater SLAM Navigation and Perception: A Comprehensive Review of Deep Learning Integration. Sensors (Basel, Switzerland), 24(21), p.7034.
-- 
+  
 - Yang, H., Xu, Z. and Jia, B., 2022. An underwater positioning system for uuvs based on lidar camera and inertial measurement unit. Sensors, 22(14), p.5418.
 
 
