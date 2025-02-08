@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 Welcome
 =====
 I am a lecturer in Guangdong Ocean University, China. Now I am working as a research associate in Newcastle University, developing the software for underwater buoyancy-driven gliders. 
@@ -33,7 +34,7 @@ was developed. It is of open-frame type, and has a modular design, with extra fu
 Integrated VO for Underwater Vehicles 
 ------
 The proposed algorithms fusing data from a camera, a sonar, and a gyroscope, localise underwater vehicles in
-sparse environments, whilst being at low cost. **A video of the comparisons of our proposed methods(IVO-monocular and IVO Stereo), ORB SLAM2, VINS and OKVIS is given below,** 
+sparse environments, whilst being at low cost. Our proposed methods(IVO-monocular and IVO Stereo) outperform the ORB-SLAM2, VINS and OKVIS in underwater sparse environments.
 [![Watch the Video](https://img.youtube.com/vi/C1qkOEcEFiY/0.jpg)](https://www.youtube.com/watch?v=C1qkOEcEFiY)
 
 
@@ -56,15 +57,21 @@ Publication
 ======
 - Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2020. An integrated visual odometry system for underwater vehicles. IEEE Journal of Oceanic Engineering, 46(3), pp.848-863.
 
-- Yang, H., Xu, Z. and Jia, B., 2022. An underwater positioning system for uuvs based on lidar camera and inertial measurement unit. Sensors, 22(14), p.5418.
-
-- Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2021. An underwater visual navigation method based on multiple ArUco markers. Journal of Marine Science and Engineering, 9(12), p.1432.
-
 - Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2022. An integrated visual odometry system with stereo camera for unmanned underwater vehicles. IEEE Access, 10, pp.71329-71343.
 
 - Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2020. A comparison of functional control strategies for underwater vehicles: Theories, simulations and experiments. Ocean Engineering, 215, p.107822.
 
+- Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2021, October. A low-cost visual inertial odometry system for underwater vehicles. In 2021 4th International Conference on Mechatronics, Robotics and Automation (ICMRA) (pp. 139-143). IEEE.
 
+- Xu, Z., Haroutunian, M., Murphy, A.J., Neasham, J. and Norman, R., 2021. An underwater visual navigation method based on multiple ArUco markers. Journal of Marine Science and Engineering, 9(12), p.1432.
+  
+- Xu, Z., Song, Y., Zhu, J. and Shi, W., 2025. UGSim: Autonomous Buoyancy-Driven Underwater Glider Simulator with LQR Control Strategy and Recursive Guidance System. arXiv preprint arXiv:2501.17851.
+ 
+- Merveille, F.F.R., Jia, B., Xu, Z. and Fred, B., 2024. Advancements in Sensor Fusion for Underwater SLAM: A Review on Enhanced Navigation and Environmental Perception. Sensors (Basel, Switzerland), 24(23), p.7490.
+
+- Merveille, F.F.R., Jia, B., Xu, Z. and Fred, B., 2024. Enhancing Underwater SLAM Navigation and Perception: A Comprehensive Review of Deep Learning Integration. Sensors (Basel, Switzerland), 24(21), p.7034.
+- 
+- Yang, H., Xu, Z. and Jia, B., 2022. An underwater positioning system for uuvs based on lidar camera and inertial measurement unit. Sensors, 22(14), p.5418.
 
 
 ------
