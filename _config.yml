@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "Newcastle, UK"
 site_theme               : "default"
-title                    : "Zhizun Xu / Dr."
+title                    : "Zhizun Xu / Ph.D"
 title_separator          : "-"
 name                     : &name "Zhizun Xu"
 description              : &description "personal description"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Zhizun Xu"
   pronouns         : # example: "she/her"  
-  bio              : "Lecture with Guangdong Ocean University, China, Research Associate 
+  bio              : "Lecturer with Guangdong Ocean University, China, Research Associate 
                       with Newcastle University, UK. "
   location         : "Newcastle, UK"
   employer         : "Newcastle University"
