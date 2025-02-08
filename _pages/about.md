@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-#Welcome
-#=====
 I am a lecturer in Guangdong Ocean University, China. Now I am working as a research associate in Newcastle University, developing the software for underwater buoyancy-driven gliders. 
 
 I mainly work on the underwater VO/SLAM based on the combination of multiple sensors, taking advantages of the conventional acoustic means and cutting-edge computer vision technologies.  I recieved my Ph.D in Marine Technology in Newcastle Univeristy, 2021, working on the underwater autonomous vehicle navigation, researching the multiple sensors fusion method to enhance the accuracy of the conventional fashion of the underwater positioning.  
@@ -20,21 +18,21 @@ Real-Time Underwater Autonomous Buoyancy-driven Glider Simulator
 ------
 We proposed the UGSim, a simulator for buoyancy-driven gliders, with a LQR control strategy, and a recursive guidance
 system. Building on the top of the DAVE and the UUVsim, it is designed to address unique challenges that come from the complex
-hydrodynamic and hydrostatic impacts on buoyancy-driven gliders, which conventional robotics simulators can’t deal with.
-[![Watch the Video](https://img.youtube.com/vi/wowY2xWD2XI/0.jpg)](https://www.youtube.com/watch?v=wowY2xWD2XI)
+hydrodynamic and hydrostatic impacts on buoyancy-driven gliders, which conventional robotics simulators can’t deal with.[PDF]()
+[![Watch the Video](https://img.youtube.com/vi/0ZNpnGoFGWM/0.jpg)](https://www.youtube.com/watch?v=0ZNpnGoFGWM)
 
 
 Modularised ROV Developed Based on ROS
 ------
 In order to collect data and evaluate proposed navigation and localisation algorithms, the multi-function ROV
-was developed. It is of open-frame type, and has a modular design, with extra functionality loaded on demand.
-[![Watch the video]()]()
+was developed. It is of open-frame type, and has a modular design, with extra functionality loaded on demand.[PDF]()
+[![Watch the video](https://img.youtube.com/vi/XEVUgK7OR00/0.jpg)](https://www.youtube.com/watch?v=XEVUgK7OR00)
 
 
 Integrated VO for Underwater Vehicles 
 ------
 The proposed algorithms fusing data from a camera, a sonar, and a gyroscope, localise underwater vehicles in
-sparse environments, whilst being at low cost. Our proposed methods(IVO-monocular and IVO Stereo) outperform the ORB-SLAM2, VINS and OKVIS in underwater sparse environments.
+sparse environments, whilst being at low cost. Our proposed methods(IVO-monocular and IVO Stereo) outperform the ORB-SLAM2, VINS and OKVIS in underwater sparse environments.[PDF]()
 
 [![Watch the Video](https://img.youtube.com/vi/C1qkOEcEFiY/0.jpg)](https://www.youtube.com/watch?v=C1qkOEcEFiY)
 
@@ -43,15 +41,16 @@ ArUco Marks Implimented in Underwater Positioning
 ------
 The multiple ArUco markers are set out beforehand. With the knowledge of the computer vision, such markers may
 be detected by a camera. Simultaneously, the pose of the camera related to markers is calculated without suffering 
-from the accumulative error.
+from the accumulative error.[PDF]()
 [![Watch the video](https://img.youtube.com/vi/IoqIBqz2smw/0.jpg)](https://www.youtube.com/watch?v=IoqIBqz2smw)
 
 
 LiDAR Camera Implimented in Underwater Positioning  
 ------
 The LiDAR camera, benefiting from the laser scanning techniques, could generate the associated depth maps.
-With the altitudes provided by the IMU, the positions of underwater vehicles can be estimated.
-[![Watch the video]()]()
+With the altitudes provided by the IMU, the positions of underwater vehicles can be estimated.[PDF]()
+
+[![Watch the video](https://img.youtube.com/vi/paiOY9JxJyI/0.jpg)](https://www.youtube.com/watch?v=paiOY9JxJyI)
 
 
 Publication
@@ -74,6 +73,3 @@ Publication
   
 - Yang, H., Xu, Z. and Jia, B., 2022. An underwater positioning system for uuvs based on lidar camera and inertial measurement unit. Sensors, 22(14), p.5418.
 
-
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
