@@ -9,7 +9,7 @@ redirect_from:
 
 I am a lecturer in Guangdong Ocean University, China. Now I am working as a research associate in Newcastle University, developing the software for underwater buoyancy-driven gliders. 
 
-I mainly work on the underwater VO/SLAM based on the combination of multiple sensors, taking advantages of the conventional acoustic means and cutting-edge computer vision technologies.  I recieved my Ph.D in Marine Technology in Newcastle Univeristy, 2021, working on the underwater autonomous vehicle navigation, researching the multiple sensors fusion method to enhance the accuracy of the conventional fashion of the underwater positioning.**\[[Click to CV](https://xuzhizun.github.io/files/Zhizun_s_CV.pdf)\]**  
+I mainly work on the underwater VO/SLAM based on the combination of multiple sensors, taking advantages of the conventional acoustic means and cutting-edge computer vision technologies.  I received my Ph.D in Marine Technology in Newcastle Univeristy, 2021, working on the underwater autonomous vehicle navigation, researching the multiple sensors fusion method to enhance the accuracy of the conventional fashion of the underwater positioning.**\[[Click to CV](https://xuzhizun.github.io/files/Zhizun_s_CV.pdf)\]**  
 
 Project Hightligts
 ======
